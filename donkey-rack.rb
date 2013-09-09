@@ -8,7 +8,7 @@ end
 class PlanetsController < Unknown::ApplicationController
 
   def list_planets
-    ["Venus", "Mercurio", "Terra"]
+    ["Mercury", "Venus", "Earth"]
   end
 
 end

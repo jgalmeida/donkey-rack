@@ -1,5 +1,3 @@
-require 'pry'
-
 module Unknown
 
   class ApplicationController
@@ -11,7 +9,6 @@ module Unknown
 
     def process(action)
       body = send(action.to_sym)
-      @response.status = 404
       @response.write(body)
     end
 
